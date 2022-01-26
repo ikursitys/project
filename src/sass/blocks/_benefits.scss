@@ -1,0 +1,36 @@
+.benefits {
+  min-height: 473px;
+  background-color: #f6f6f6;
+  padding: 73px 0 65px 0;
+  &__wrapper {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 952px;
+    display: flex;
+    justify-content: space-between;
+    color: $text-color;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 238px;
+    text-align: center;
+  }
+  &__subtitle {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &__description {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &__link {
+    color: #ff0000;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+}
